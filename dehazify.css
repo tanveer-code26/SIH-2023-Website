@@ -1,0 +1,318 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #484545;
+  overflow: hidden;
+  justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #777272;
+  color: white;
+}
+
+#home{
+  background-color: rgb(248 240 240 / 69%);
+  display:flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+  width:100%;
+}
+#home p{
+  margin-top: 200px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+#App_prototype{
+  background-color: #ebe9f1;
+  display:block;
+  
+}
+#about{
+  background-color: #ebe9f1;
+  display:block;
+}
+#team{
+  background-color: #ebe9f1;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.iiii {
+  margin-left: 90px;
+}
+.hhhh {
+  background-color: #ebe8ebf1;
+  margin-top: 20px;
+}
+#images {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center; 
+  float: left;
+  background-color: #ebe9f1;
+ 
+  
+}
+.image{
+    float: left;
+  padding: 25px;
+  justify-content: space-around;
+  
+}
+#about pre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #ebe9f1;
+    
+    
+}
+#about img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  
+}
+#about #hardware{
+  display: flex;
+
+}
+#about p{
+  margin-left: 400px;
+  padding-top: 75px;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#heading{
+  font-size: 75px;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  margin-left: 475px;
+  margin-right: 475px;
+  font-style: italic;
+  background-color: #efe6d3;
+}
+pre{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin-top: 75px;
+  background-color: #ebe9f1;
+}
+#App_prototype p{
+  margin-left: 550px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#team p{
+  font-size: 65px;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  margin-left: 475px;
+  margin-right: 475px;
+  justify-content: center;
+}
+.team-members {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+}
+
+.team-member {
+  width: calc(33.33% - 20px); /* Set the width of each team member item to 33.33% minus the margin */
+  margin: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc; /* Add a 2px solid gray border to the image */
+}
+
+.q {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.team-member:hover {
+  background-color: #eee;
+  
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+.o{ margin-top: 200px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  justify-content: center;
+  
+ margin-left: 520px;
+ font-weight: bold;
+
+}
+.Working_model{
+  background-color:  #ebe9f1;
+  margin-top: 20px;
+}
+
+.video-members{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.videos{
+  margin-right: 100px;
+}
+.Working_model h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+margin-left: 120px;
+}
+.z{
+  background-color:  #ebe9f1;;
+}
+
+.u{
+
+  margin-left: 550px;
+  font-size: 50px;
+
+}
+.e{
+  background-color:#ebe9f1;
+}
+.g{
+  margin-left: 50px;
+}
+/* .mentors {
+  display: flex;
+  flex-direction: wrap;
+
+  align-items: center;
+  margin-top: 100px;
+}
+
+.mentor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.mentor img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+.mentor h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+.mentor h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mentor p {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  max-width: 400px;
+} */
+
+.j {
+  margin-left: 150px;
+}
+
+.i {
+  margin-left: 80px;
+}
+.k {
+margin-left: 635px;
+margin-bottom: 50px;
+}
+.mentor-container {
+  margin-right: 170px;
+}
